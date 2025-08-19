@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="flex justify-around">
+    <header class="flex flex-col sm:flex-row items-center justify-center gap-8">
         <div class="text content-center py-4 px-4">
             <h1 class="manrope-extrabold text-lg sm:text-5xl">It's good <br>tea time at The <br>Tea House</h1>
             <h4 class="dark-03 text-sm mt-3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</h4>
             <button class="linear text-white flex items-center gap-2 px-4 py-2 rounded-lg mt-2">Explore More<img src="tea-house-resources/images/arrow.png"></button>
         </div>
         <div class="banner content-center relative">
-            <img src="tea-house-resources/images/banner.png">
+            <img class="w-full sm:w-auto" src="tea-house-resources/images/banner.png">
             <div class="rating-card absolute z-10 bottom-[7%] left-[12%] bg-white px-4 py-2 rounded-lg shadow-lg flex">
                 <div>
                     <i class="fa-solid fa-star"></i>
@@ -58,13 +58,13 @@
             </div>
         </div>
         <div class="description flex flex-col-reverse h-full sm:flex-row justify-center items-center py-10">
-            <div class="tea-images flex flex-col gap-10 sm:grid grid-cols-2 grid-rows-3 w-[30%] px-0 sm:h-[70%]">
+            <div class="tea-images flex flex-col gap-10 sm:grid grid-cols-2 grid-rows-3 w-full sm:w-[30%] px-0 sm:h-[70%]">
                 <div class="tea-image bg-slate-100 rounded-xl sm:h-auto"></div>
                 <div class="tea-image gradient-fade px-6 py-6 rounded-xl sm:row-span-2 flex justify-center items-center">
-                    <img src="tea-house-resources/images/fresh-1.png"/>
+                    <img class="w-full h-auto" src="tea-house-resources/images/fresh-1.png"/>
                 </div>
                 <div class="tea-image gradient-fade px-6 py-6 rounded-xl sm:row-span-2 flex justify-center items-center">
-                    <img src="tea-house-resources/images/fresh-2.png"/>
+                    <img class="w-full h-auto" src="tea-house-resources/images/fresh-2.png"/>
                 </div>
                 <div class="tea-image bg-slate-100 rounded-xl sm:h-auto"></div>
             </div>
@@ -111,12 +111,12 @@
             </div>
         </div>
     </main>
-    <footer class="mt-20 linear flex flex-col sm:flex-row justify-around border-2 py-5">
+    <footer class="mt-20 linear flex flex-col sm:flex-row justify-around border-2 py-5 w-[100%]">
         <div class="left-div w-[100%] sm:w-[50%]">
-            <div class="pic px-20">
+            <div class="pic px-5 sm:px-20">
                 <img src="tea-house-resources/images/cup.png"/>
             </div>
-            <div class="text flex gap-10 justify-between px-20 mt-10">
+            <div class="text flex gap-10 justify-between px-5 sm:px-20 mt-10">
                 <div class="links">
                     <h1 class="manrope-extrabold">Quick Links</h1>
                     <ul>
@@ -138,11 +138,11 @@
             </div>
         </div>
         <div class="right-div w-[100%] sm:w-[50%]">
-            <div class="head flex justify-center items-center sm:flex-row gap-10 px-20">
+            <div class="head flex justify-center items-center sm:flex-row gap-10 px-5 sm:px-20">
                 <h1 class="manrope-extrabold">Ready to get started?</h1>
                 <button class="linear p-2 rounded-lg border-2 border-black" style="color: white;">Get Started</button>
             </div>
-            <div class="text mt-15 flex sm:flex-row justify-between px-20 gap-10">
+            <div class="text mt-15 flex sm:flex-row justify-between px-5 sm:px-20 gap-10">
                 <div class="help">
                     <h1 class="manrope-extrabold">Need Help?</h1>
                     <h3>FAQs</h3>
@@ -151,7 +151,7 @@
                 <div class="subscribe">
                     <h1 class="manrope-extrabold">Subscribe to our <br> newsletter</h1>
                     <div class="email">
-                        <input type="email" placeholder="Enter your email address">
+                        <input class="w-full" type="email" placeholder="Enter your email address">
                         <button class="mt-6"><img src="tea-house-resources/images/arrow.png" alt="Send"></button>
                     </div>
                 </div>
