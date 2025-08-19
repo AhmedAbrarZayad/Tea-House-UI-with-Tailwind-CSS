@@ -25,3 +25,7 @@
 .gradient-fade {
     background: linear-gradient(to right, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
 }
+
+.dark-07{
+  color: #F4F4F4;
+}
