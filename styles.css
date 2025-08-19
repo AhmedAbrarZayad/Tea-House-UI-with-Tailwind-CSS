@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-extrabold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.manrope-medium {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dark-03{
+    color: #777777;
+}
+
+.linear {
+    background: linear-gradient(to right, #FF0000, #FF8938);
+}
+
+.gradient-fade {
+    background: linear-gradient(to right, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
